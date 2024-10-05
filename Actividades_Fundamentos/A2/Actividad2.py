@@ -7,7 +7,7 @@ altura = int(input("Introduce la altura del rectangulo: "))
 #Calcularemos el area
 area = base * altura
 #Calculamos perimetro (suma de todos sus lados) multiplicando por 2 el mismo valor anterior
-perimetro = 2*base + 2*altura 
+perimetro = (base + altura) *2
 
 #Mostraremos por pantalla el area del rectangulo
 print("Area del rectangulo es: " + str(area) + "cm")

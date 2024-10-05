@@ -3,11 +3,16 @@
 
 x1 = int(input("Introduce el numero x1: "))
 y1 = int(input("Introduce el numero y1: "))
+
 x2 = int(input("Introduce el numero x2: "))
 y2 = int(input("Introduce el numero y2: "))
 
-pareja1 = (x1 - x2) **2
-pareja2 = (y1 - y2) **2
+#Calculamos catetos
+cateto1 = (x2 - x1) 
+cateto2 = (y2 - y1) 
 
-print(pareja1)
-print(pareja2)
+#Calculamos hipotenusa
+hipotenusa = (cateto1 **2 + cateto2 **2) **0.5
+
+#Muestra pantalla
+print(hipotenusa)

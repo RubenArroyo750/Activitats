@@ -10,3 +10,13 @@ Palabra6 = "secret"
 
 #Mostraremos por pantalla la frase completa con espacios separados en blanco
 print(Palabra1, Palabra2, Palabra3, Palabra4, Palabra5, Palabra6, sep=" ")
+
+
+
+#V2 CORRECIÓN
+cadena1 =  "La casa blanca"
+cadena2 = "guarda un secret"
+
+print(cadena1, cadena2)           # Separador per defecte, " "
+print(cadena1, cadena2, sep="/")  # Canviem el separador
+print(cadena1, cadena2, end=".")  # Canviem el caràcter final

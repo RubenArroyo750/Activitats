@@ -6,6 +6,7 @@ datos = int(input("Introduce una cantidad de minutos: ")) #Se introduce la canti
 hora = datos//60 #División entera de la hora con los datos introducidos entre 60 minutos de una hora
 
 minutos1 = datos - (hora * 60) #Se calcula los datos de la hora multiplicado por 60 y se restan los datos introducidos por el usuario
+#O minutos1 = datos % 60
 
 #Mostrar mensaje por pantalla
 print("La cantidad de minutos " + str(datos) + " corresponde a: " + str(hora) + " horas y "+ str(minutos1) + " minutos")
